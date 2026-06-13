@@ -61,7 +61,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/0text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Portfolio
