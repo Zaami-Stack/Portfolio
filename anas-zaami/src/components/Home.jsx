@@ -98,9 +98,7 @@ function Home() {
           </h1>
 
           <p className="about mx-auto mt-3 max-w-sm text-[13px] leading-6 text-stone-300 sm:mx-0 sm:max-w-2xl sm:text-[15px]">
-            I'm a student UI/UX Designer and Developer. I strive to build
-            immersive and beautiful web applications through carefully crafted
-            code.
+            I’m a UI/UX designer and web developer focused on creating smooth,<br></br> engaging digital experiences through clean and thoughtful code.
           </p>
 
           <div className="home-actions mt-5 flex flex-wrap justify-center gap-3 sm:justify-start">
