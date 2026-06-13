@@ -95,7 +95,7 @@ export function Header({ open, setOpen }) {
         </ul>
       </nav>
 
-      <div className="flex w-auto items-center justify-end lg:w-20">
+      <div className="flex w-auto items-center justify-end lg:w-30">
         <div className="me-2 lg:hidden hidden">
           <Menu open={open} setOpen={setOpen} />
         </div>
