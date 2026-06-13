@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+  outline: none;
+}
+
+.loader-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background: #fefce8;
+  animation: loader-bounce 1.3s ease-in-out infinite;
+}
+
+.animation-delay-0 {
+  animation-delay: 0ms;
+}
+
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+@keyframes loader-bounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.45;
+  }
+
+  40% {
+    transform: translateY(-7px);
+    opacity: 1;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 560px) and (max-height: 500px) {
+  .home-hero {
+    min-height: 100svh;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 4rem 2rem 1.25rem;
+  }
+
+  .home-content,
+  .home-art {
+    flex: 1 1 0;
+  }
+
+  .home-lottie {
+    max-width: min(34vw, 260px);
+  }
+}
+
+@media (max-width: 340px) and (max-height: 650px) {
+  .home-hero {
+    gap: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .home-copy p {
+    margin-top: 0.5rem;
+  }
+
+  .home-actions {
+    margin-top: 1rem;
+  }
+
+  .home-lottie {
+    max-width: 230px;
+  }
+}
