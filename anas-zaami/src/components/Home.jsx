@@ -83,8 +83,8 @@ function Home() {
   function goToWhatssap () {
     window.location.href = "https://wa.me/212775094615";
   }
-  function goToGithub () {
-    window.location.href = "https://github.com/Zaami-Stack";
+  function goToAywgo () {
+    window.location.href = "https://aywgo.com/";
   }
   return (
     <section
@@ -110,7 +110,7 @@ function Home() {
               Contact
             </button>
             <button 
-            onClick={goToGithub}
+            onClick={goToAywgo}
             className="cursor-pointer rounded-2xl border border-[#0170E3] px-4 py-1 text-[14px] text-[#0170E3]">
               Work
             </button>
