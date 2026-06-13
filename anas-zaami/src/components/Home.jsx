@@ -79,7 +79,7 @@ function ProfileAnimation({ paused }) {
   );
 }
 
-function Home({ menuOpen = false }) {
+function Home() {
   return (
     <section
       className="home-hero mx-auto flex min-h-svh max-w-7xl flex-col items-center justify-start gap-6 overflow-x-clip px-5 pb-8 pt-28 sm:justify-center sm:gap-8 sm:px-8 sm:pt-20 md:pt-16 lg:flex-row lg:gap-8 lg:px-8 lg:py-12 xl:gap-12 xl:px-15"
@@ -109,7 +109,7 @@ function Home({ menuOpen = false }) {
       </div>
 
       <div className="home-art animation flex min-w-0 w-full items-center justify-center lg:flex-1">
-        <ProfileAnimation paused={menuOpen} />
+        <ProfileAnimation />
       </div>
     </section>
   );
