@@ -29,7 +29,7 @@ export function Header({ open, setOpen }) {
         <ul className="flex gap-6 list-none">
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Home
@@ -37,7 +37,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               About
@@ -45,7 +45,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Process
@@ -53,7 +53,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Curriculum
@@ -61,7 +61,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Portfolio
@@ -69,7 +69,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Skills
@@ -78,7 +78,7 @@ export function Header({ open, setOpen }) {
           <li>
             <a
               
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="https://aywgo.com/"
             >
               Aywgo
@@ -86,7 +86,7 @@ export function Header({ open, setOpen }) {
           </li>
           <li>
             <a
-              className="text-white/80 text-[12px] font-extralight hover:opacity-70 duration-300"
+              className="text-white/0 text-[12px] font-extralight hover:opacity-70 duration-300"
               href="#"
             >
               Experience
@@ -96,7 +96,7 @@ export function Header({ open, setOpen }) {
       </nav>
 
       <div className="flex w-auto items-center justify-end lg:w-20">
-        <div className="me-2 lg:hidden">
+        <div className="me-2 lg:hidden hidden">
           <Menu open={open} setOpen={setOpen} />
         </div>
         <button
