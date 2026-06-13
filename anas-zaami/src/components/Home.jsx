@@ -91,7 +91,7 @@ function Home({ menuOpen = false }) {
             <span className="whitespace-nowrap font-semibold">Anas Zaami</span>
           </h1>
 
-          <p className="mx-auto mt-3 max-w-sm text-[13px] leading-6 text-stone-300 sm:mx-0 sm:max-w-2xl sm:text-[15px]">
+          <p className="about mx-auto mt-3 max-w-sm text-[13px] leading-6 text-stone-300 sm:mx-0 sm:max-w-2xl sm:text-[15px]">
             I'm a student UI/UX Designer and Developer. I strive to build
             immersive and beautiful web applications through carefully crafted
             code.
