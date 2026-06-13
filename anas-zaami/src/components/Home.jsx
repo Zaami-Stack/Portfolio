@@ -80,6 +80,12 @@ function ProfileAnimation({ paused }) {
 }
 
 function Home() {
+  function goToWhatssap () {
+    window.location.href = "https://wa.me/212775094615";
+  }
+  function goToGithub () {
+    window.location.href = "https://github.com/Zaami-Stack";
+  }
   return (
     <section
       className="home-hero mx-auto flex min-h-svh max-w-7xl flex-col items-center justify-start gap-6 overflow-x-clip px-5 pb-8 pt-28 sm:justify-center sm:gap-8 sm:px-8 sm:pt-20 md:pt-16 lg:flex-row lg:gap-8 lg:px-8 lg:py-12 xl:gap-12 xl:px-15"
@@ -98,10 +104,14 @@ function Home() {
           </p>
 
           <div className="home-actions mt-5 flex flex-wrap justify-center gap-3 sm:justify-start">
-            <button className="cursor-pointer rounded-2xl bg-[#0170E3] px-4 py-1 text-[14px] text-stone-200">
+            <button 
+              onClick={goToWhatssap}
+            className="cursor-pointer rounded-2xl bg-[#0170E3] px-4 py-1 text-[14px] text-stone-200">
               Contact
             </button>
-            <button className="cursor-pointer rounded-2xl border border-[#0170E3] px-4 py-1 text-[14px] text-[#0170E3]">
+            <button 
+            onClick={goToGithub}
+            className="cursor-pointer rounded-2xl border border-[#0170E3] px-4 py-1 text-[14px] text-[#0170E3]">
               Work
             </button>
           </div>
