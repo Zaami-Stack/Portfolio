@@ -100,10 +100,10 @@ export function Header({ open, setOpen }) {
           <Menu open={open} setOpen={setOpen} />
         </div>
         <button
-          onClick={() => window.open("https://wa.me/212775094615")}
+          onClick={() => window.open("https://www.drbellefkih-cancerologue.ma/")}
           className="flex items-center text-white/80 text-[12px] cursor-pointer bg-[#0171E3] px-4 py-0.5 rounded-2xl hover:opacity-90 hover:bg-white hover:text-[#0171E3] duration-400"
         >
-          Contact
+          Last Project
         </button>
       </div>
     </header>
